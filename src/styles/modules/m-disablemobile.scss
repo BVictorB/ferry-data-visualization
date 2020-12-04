@@ -1,0 +1,18 @@
+.m-disablemobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: #36A9E1;
+  color: white;
+  padding: 20px;
+  transition: top 500ms ease-in-out;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+  @media (min-width: 960px) {
+    display: none;
+  }
+}

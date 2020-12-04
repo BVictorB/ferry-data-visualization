@@ -7894,10 +7894,10 @@ const Platform = () => {
 
 
       </div>
-			<div class="m-platform__car-1">
+			<div className="m-platform__car-1">
 				<img src={car1} alt=""/>
 			</div>
-			<div class="m-platform__car-2">
+			<div className="m-platform__car-2">
 				<img src={car2} alt=""/>
 			</div>
     </div>

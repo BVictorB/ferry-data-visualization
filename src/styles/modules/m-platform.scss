@@ -70,14 +70,14 @@
     &__car-1 {
         position: absolute;
         top: 1580px;
-        animation: drivingcar 15s linear infinite;
+        animation: drivingcar 8s linear infinite;
 
         @keyframes drivingcar {
             from {
-                right: -500px
+                right: -20vw
             } 
             to {
-                right: 6000px
+                right: 100vw
             }
         }
     }
@@ -85,14 +85,14 @@
     &__car-2 {
         position: absolute;
         top: 1690px;
-        animation: drivingcar2 15s linear infinite;
+        animation: drivingcar2 8s linear infinite;
 
         @keyframes drivingcar2 {
             from {
-                left: -500px
+                left: -20vw
             } 
             to {
-                left: 6000px
+                left: 100vw
             }
         }
     }

@@ -54,4 +54,21 @@
             }
         }
     }
+
+    &__water {
+        animation: watermove 3s ease-in-out infinite alternate;
+        z-index: -2;
+        .st2 {
+            fill: rgba(255, 255, 255, 0.331);
+        }
+
+        @keyframes watermove {
+            from {
+                transform: translateX(-170px);
+            }
+            to {
+                transform: translateX(-190px);
+            }
+        }
+    }
 }

@@ -5,19 +5,20 @@ import Overlay from './components/Overlay'
 import Platform from './components/Platform'
 import Waves from './components/Waves'
 import Footer from './components/Footer'
+import DisableMobile from './components/DisableMobile'
 
 const App = () => {
   const [selectedFerry, setSelectedFerry] = useState(null)
-  const [selectedTime, setSelectedTime] = useState(null)
 
   return (
     <>
       <Overlay />
       <Waves />
-      <Platform selectedTime={selectedTime} selectedFerry={selectedFerry}/>
+      <Platform/>
       <Ferry selectedFerry={selectedFerry} />
-      <Sidebar selectedFerry={selectedFerry} setSelectedFerry={setSelectedFerry} setSelectedTime={setSelectedTime}/>
+      <Sidebar selectedFerry={selectedFerry} setSelectedFerry={setSelectedFerry}/>
       <Footer />
+      <DisableMobile />
     </>
   )
 }

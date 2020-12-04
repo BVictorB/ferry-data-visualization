@@ -9,7 +9,7 @@ import cyclistIcon from '../img/cyclist-icon.png'
 import pedestrianIcon from '../img/pedestrian-icon.png'
 import scooterIcon from '../img/scooter-icon.png'
 
-const Sidebar = ({ selectedFerry, setSelectedFerry, setSelectedTime }) => {
+const Sidebar = ({ selectedFerry, setSelectedFerry }) => {
   const [selectedData, setSelectedData] = useState(null)
 
   const data = {
@@ -119,7 +119,6 @@ const Sidebar = ({ selectedFerry, setSelectedFerry, setSelectedTime }) => {
     const time = Number(e.target.value)
     const selectedData = ferry === 'buiksloter' ? data.buiksloter[time] : data.ndsm[time]
     setSelectedData(selectedData)
-    setSelectedTime(e.target.value.replace(/(..)/g, '$1:').slice(0,-1))
   }
 
   const createBuiksloterButtons = () => {
