@@ -1,0 +1,30 @@
+.m-displayoverlay {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+
+  button {
+    background-color: #F6862A;
+    box-shadow: 0 4px #F2632A;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: semi-bold;
+    padding: 10px 24px;
+
+    &:focus, &:hover {
+      background-color: #F2632A;
+      box-shadow: 0 2px #F6862A;
+      outline: none;
+    }
+  }
+
+  @media (max-width: 960px) {
+    display: none;
+  }
+}
