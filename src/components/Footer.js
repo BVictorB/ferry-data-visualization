@@ -19,7 +19,7 @@ const Footer = () => {
             <div>
               <img className="m-footer__image" src={victor} alt=""/>
               <h3>Victor Boucher</h3>
-              <h4>Frontend developer</h4>
+              <h4>Frontend developer & project management</h4>
               <a target="_blank" href="https://www.linkedin.com/in/victor-boucher-18267813b/"><img className="m-footer__icon" src={linkedin} alt=""/></a>
               <a target="_blank" href="https://github.com/BVictorB"><img className="m-footer__icon" src={github} alt=""/></a>
             </div>
