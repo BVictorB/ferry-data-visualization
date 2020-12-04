@@ -66,4 +66,34 @@
         .st48{fill:#006633;}
         .st49{fill:#007337;}
     }
+
+    &__car-1 {
+        position: absolute;
+        top: 1580px;
+        animation: drivingcar 15s linear infinite;
+
+        @keyframes drivingcar {
+            from {
+                right: -500px
+            } 
+            to {
+                right: 6000px
+            }
+        }
+    }
+
+    &__car-2 {
+        position: absolute;
+        top: 1690px;
+        animation: drivingcar2 15s linear infinite;
+
+        @keyframes drivingcar2 {
+            from {
+                left: -500px
+            } 
+            to {
+                left: 6000px
+            }
+        }
+    }
 }

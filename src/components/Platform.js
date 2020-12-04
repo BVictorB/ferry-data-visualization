@@ -1,4 +1,7 @@
-const Platform = ({ selectedTime, selectedFerry }) => {
+import car1 from '../img/car.png'
+import car2 from '../img/car2.png'
+
+const Platform = () => {
   return (
     <div className="m-platform">
       <div className="m-platform__container">
@@ -7891,6 +7894,12 @@ const Platform = ({ selectedTime, selectedFerry }) => {
 
 
       </div>
+			<div class="m-platform__car-1">
+				<img src={car1} alt=""/>
+			</div>
+			<div class="m-platform__car-2">
+				<img src={car2} alt=""/>
+			</div>
     </div>
   )
 }
