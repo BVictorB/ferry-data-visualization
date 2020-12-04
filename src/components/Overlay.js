@@ -2,7 +2,7 @@ import { useState } from 'react'
 import people from '../img/people.png'
 
 const Overlay = () => {
-    const [showOverlay, setShowOverlay] = useState(false)
+    const [showOverlay, setShowOverlay] = useState(true)
 
     if (showOverlay) {
         document.body.style.overflow = 'hidden'

@@ -31,11 +31,7 @@
 /*                                    Pages                                   */
 /* -------------------------------------------------------------------------- */
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-#root {
-  overflow: hidden;
+body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
